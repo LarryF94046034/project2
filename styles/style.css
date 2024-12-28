@@ -110,6 +110,8 @@ main {
   /* !SECTION info-circles */
   /* SECTION empty-container */
   /* !SECTION empty-container */
+  /* SECTION google-map */
+  /* !SECTION google-map */
 }
 main section.background-img {
   min-height: 70vh;
@@ -198,6 +200,7 @@ main section.google-map iframe {
   height: 40vh;
 }
 
+/* SECTION footer */
 footer {
   display: flex;
   padding: 2rem;
@@ -225,6 +228,29 @@ footer section.Links a img {
   margin: 0rem 1rem;
 }
 
+/* !SECTION footer */
+/* SECTION scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(152, 57, 255, 0.5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 64, 255, 0.5);
+}
+
+/* !SECTION scrollbar */
 @media screen and (max-width: 700px) {
   body header section.logo {
     flex-direction: column;

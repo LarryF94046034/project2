@@ -199,6 +199,7 @@ main {
   }
   /* !SECTION empty-container */
 
+  /* SECTION google-map */
   section.google-map {
     background-color: white;
     padding: 2rem 1rem;
@@ -215,8 +216,10 @@ main {
       height: 40vh;
     }
   }
+  /* !SECTION google-map */
 }
 
+/* SECTION footer */
 footer {
   display: flex;
   padding: 2rem;
@@ -246,6 +249,29 @@ footer {
     }
   }
 }
+/* !SECTION footer */
+
+/* SECTION scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $themeColor;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 64, 255, 0.5);
+}
+/* !SECTION scrollbar */
 
 @media screen and (max-width: 700px) {
   body {
